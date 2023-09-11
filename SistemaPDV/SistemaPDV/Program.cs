@@ -18,6 +18,7 @@ namespace SistemaPDV
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmAdminPainel());
+            Application.Run(new frmUsuarioPainel());
             //Application.Run(new frmLogin());
         }
     }

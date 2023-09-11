@@ -47,5 +47,29 @@ namespace SistemaPDV
             frmProdutos produtos = new frmProdutos();
             produtos.Show();
         }
+
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCliDis clidis = new frmCliDis();
+            clidis.Show();
+        }
+
+        private void compraVendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCompraVenda compra = new frmCompraVenda();
+            compra.Show();
+        }
+
+        private void transaçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTransacao transacao = new frmTransacao();
+            transacao.Show();
+        }
+
+        private void inventárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInventario inventario = new frmInventario();
+            inventario.Show();
+        }
     }
 }

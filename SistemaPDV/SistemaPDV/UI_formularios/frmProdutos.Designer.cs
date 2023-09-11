@@ -131,6 +131,7 @@
             this.dvgProduto.RowTemplate.Height = 24;
             this.dvgProduto.Size = new System.Drawing.Size(585, 530);
             this.dvgProduto.TabIndex = 62;
+            this.dvgProduto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgProduto_CellContentClick);
             this.dvgProduto.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dvgProduto_RowHeaderMouseClick);
             // 
             // label9
@@ -158,6 +159,7 @@
             this.txtidProduto.ReadOnly = true;
             this.txtidProduto.Size = new System.Drawing.Size(285, 22);
             this.txtidProduto.TabIndex = 59;
+            this.txtidProduto.TextChanged += new System.EventHandler(this.txtidProduto_TextChanged);
             // 
             // label2
             // 
@@ -217,6 +219,7 @@
             this.cmbcategoriaProduto.Name = "cmbcategoriaProduto";
             this.cmbcategoriaProduto.Size = new System.Drawing.Size(282, 24);
             this.cmbcategoriaProduto.TabIndex = 74;
+            this.cmbcategoriaProduto.SelectedIndexChanged += new System.EventHandler(this.cmbcategoriaProduto_SelectedIndexChanged);
             // 
             // frmProdutos
             // 

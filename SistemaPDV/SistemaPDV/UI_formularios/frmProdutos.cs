@@ -148,5 +148,20 @@ namespace SistemaPDV.UI_formularios
                 dvgProduto.DataSource = dt;
             }
         }
+
+        private void txtidProduto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dvgProduto_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void cmbcategoriaProduto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

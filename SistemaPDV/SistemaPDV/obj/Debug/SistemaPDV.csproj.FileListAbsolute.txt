@@ -22,3 +22,7 @@ C:\Users\Dayana\OneDrive\Área de Trabalho\SistemaPDV\SistemaPDV\SistemaPDV\obj\
 C:\Users\Dayana\OneDrive\Área de Trabalho\SistemaPDV\SistemaPDV\SistemaPDV\obj\Debug\SistemaPDV.UI_formularios.frmLogin.resources
 C:\Users\Dayana\OneDrive\Área de Trabalho\SistemaPDV\SistemaPDV\SistemaPDV\obj\Debug\SistemaPDV.UI_formularios.frmCategorias.resources
 C:\Users\Dayana\OneDrive\Área de Trabalho\SistemaPDV\SistemaPDV\SistemaPDV\obj\Debug\SistemaPDV.UI_formularios.frmProdutos.resources
+C:\Users\Dayana\OneDrive\Área de Trabalho\SistemaPDV\SistemaPDV\SistemaPDV\obj\Debug\SistemaPDV.UI_formularios.frmCliDis.resources
+C:\Users\Dayana\OneDrive\Área de Trabalho\SistemaPDV\SistemaPDV\SistemaPDV\obj\Debug\SistemaPDV.UI_formularios.frmCompraVenda.resources
+C:\Users\Dayana\OneDrive\Área de Trabalho\SistemaPDV\SistemaPDV\SistemaPDV\obj\Debug\SistemaPDV.UI_formularios.frmTransacao.resources
+C:\Users\Dayana\OneDrive\Área de Trabalho\SistemaPDV\SistemaPDV\SistemaPDV\obj\Debug\SistemaPDV.UI_formularios.frmInventario.resources

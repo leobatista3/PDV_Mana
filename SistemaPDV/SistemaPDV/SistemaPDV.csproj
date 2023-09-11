@@ -42,6 +42,7 @@
     <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Security" />
     <Reference Include="System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
@@ -67,12 +68,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL_Classes\categoriasBLL.cs" />
+    <Compile Include="BLL_Classes\CliDisBLL.cs" />
+    <Compile Include="BLL_Classes\CompraVendaBLL.cs" />
+    <Compile Include="BLL_Classes\DetalhesCompraVendaBLL.cs" />
     <Compile Include="BLL_Classes\loginBLL.cs" />
     <Compile Include="BLL_Classes\produtosBLL.cs" />
+    <Compile Include="BLL_Classes\transacaoBLL.cs" />
     <Compile Include="BLL_Classes\userBLL_Class.cs" />
     <Compile Include="DAL_Classes\categoriasDAL.cs" />
+    <Compile Include="DAL_Classes\CliDisDAL.cs" />
+    <Compile Include="DAL_Classes\CompraVendaDAL.cs" />
+    <Compile Include="DAL_Classes\DetalhesCompraVendaDAL.cs" />
+    <Compile Include="DAL_Classes\DGVPrinter.cs" />
+    <Compile Include="DAL_Classes\inventarioDAL.cs" />
     <Compile Include="DAL_Classes\loginDAL.cs" />
     <Compile Include="DAL_Classes\produtosDAL.cs" />
+    <Compile Include="DAL_Classes\transacaoDAL.cs" />
     <Compile Include="DAL_Classes\userDAL_Classes.cs" />
     <Compile Include="UI_formularios\frmAdminPainel.cs">
       <SubType>Form</SubType>
@@ -86,6 +97,24 @@
     <Compile Include="UI_formularios\frmCategorias.Designer.cs">
       <DependentUpon>frmCategorias.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI_formularios\frmCliDis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_formularios\frmCliDis.Designer.cs">
+      <DependentUpon>frmCliDis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_formularios\frmCompraVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_formularios\frmCompraVenda.Designer.cs">
+      <DependentUpon>frmCompraVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_formularios\frmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_formularios\frmInventario.Designer.cs">
+      <DependentUpon>frmInventario.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI_formularios\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +126,12 @@
     </Compile>
     <Compile Include="UI_formularios\frmProdutos.Designer.cs">
       <DependentUpon>frmProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_formularios\frmTransacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_formularios\frmTransacao.Designer.cs">
+      <DependentUpon>frmTransacao.cs</DependentUpon>
     </Compile>
     <Compile Include="UI_formularios\frmusuarioPainel.cs">
       <SubType>Form</SubType>
@@ -118,11 +153,23 @@
     <EmbeddedResource Include="UI_formularios\frmCategorias.resx">
       <DependentUpon>frmCategorias.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI_formularios\frmCliDis.resx">
+      <DependentUpon>frmCliDis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_formularios\frmCompraVenda.resx">
+      <DependentUpon>frmCompraVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_formularios\frmInventario.resx">
+      <DependentUpon>frmInventario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI_formularios\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI_formularios\frmProdutos.resx">
       <DependentUpon>frmProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_formularios\frmTransacao.resx">
+      <DependentUpon>frmTransacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI_formularios\frmusuarioPainel.resx">
       <DependentUpon>frmusuarioPainel.cs</DependentUpon>
