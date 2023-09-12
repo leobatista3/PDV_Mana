@@ -30,9 +30,8 @@
         {
             this.menuStripTop = new System.Windows.Forms.MenuStrip();
             this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.formulárioDeVendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.inventárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inventárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,9 +47,8 @@
             this.menuStripTop.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStripTop.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.comprasToolStripMenuItem,
-            this.formulárioDeVendasToolStripMenuItem,
-            this.inventárioToolStripMenuItem,
-            this.cadastroToolStripMenuItem});
+            this.cadastroToolStripMenuItem,
+            this.inventárioToolStripMenuItem});
             this.menuStripTop.Location = new System.Drawing.Point(0, 0);
             this.menuStripTop.Name = "menuStripTop";
             this.menuStripTop.Size = new System.Drawing.Size(954, 28);
@@ -60,51 +58,45 @@
             // comprasToolStripMenuItem
             // 
             this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(133, 24);
-            this.comprasToolStripMenuItem.Text = "Compra e Venda";
+            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.comprasToolStripMenuItem.Text = "[PDV Compra e Venda]";
             this.comprasToolStripMenuItem.Click += new System.EventHandler(this.comprasToolStripMenuItem_Click);
-            // 
-            // formulárioDeVendasToolStripMenuItem
-            // 
-            this.formulárioDeVendasToolStripMenuItem.Name = "formulárioDeVendasToolStripMenuItem";
-            this.formulárioDeVendasToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
-            this.formulárioDeVendasToolStripMenuItem.Text = "Formulário de Vendas";
-            // 
-            // inventárioToolStripMenuItem
-            // 
-            this.inventárioToolStripMenuItem.Name = "inventárioToolStripMenuItem";
-            this.inventárioToolStripMenuItem.Size = new System.Drawing.Size(89, 24);
-            this.inventárioToolStripMenuItem.Text = "Inventário";
-            this.inventárioToolStripMenuItem.Click += new System.EventHandler(this.inventárioToolStripMenuItem_Click);
             // 
             // cadastroToolStripMenuItem
             // 
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(159, 24);
-            this.cadastroToolStripMenuItem.Text = "Cadastro de Clientes";
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(169, 24);
+            this.cadastroToolStripMenuItem.Text = "[Cadastro de Clientes]";
             this.cadastroToolStripMenuItem.Click += new System.EventHandler(this.cadastroToolStripMenuItem_Click);
+            // 
+            // inventárioToolStripMenuItem
+            // 
+            this.inventárioToolStripMenuItem.Name = "inventárioToolStripMenuItem";
+            this.inventárioToolStripMenuItem.Size = new System.Drawing.Size(99, 24);
+            this.inventárioToolStripMenuItem.Text = "[Inventário]";
+            this.inventárioToolStripMenuItem.Click += new System.EventHandler(this.inventárioToolStripMenuItem_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.IndianRed;
-            this.label5.Location = new System.Drawing.Point(346, 231);
+            this.label5.Location = new System.Drawing.Point(393, 233);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(262, 39);
+            this.label5.Size = new System.Drawing.Size(146, 39);
             this.label5.TabIndex = 10;
-            this.label5.Text = "LANCHONETE";
+            this.label5.Text = "MANNÁ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label4.Location = new System.Drawing.Point(349, 202);
+            this.label4.Location = new System.Drawing.Point(366, 202);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(256, 20);
+            this.label4.Size = new System.Drawing.Size(201, 20);
             this.label4.TabIndex = 9;
-            this.label4.Text = "SISTEMA DE VENDAS PARA";
+            this.label4.Text = "SISTEMA DE VENDAS";
             // 
             // label3
             // 
@@ -115,7 +107,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 20);
             this.label3.TabIndex = 8;
-            this.label3.Text = "LEANDRO";
+            this.label3.Text = "Perfil PDV";
             // 
             // label2
             // 
@@ -140,7 +132,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(365, 15);
+            this.label1.Location = new System.Drawing.Point(366, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(400, 30);
             this.label1.TabIndex = 0;
@@ -175,7 +167,6 @@
 
         private System.Windows.Forms.MenuStrip menuStripTop;
         private System.Windows.Forms.ToolStripMenuItem comprasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem formulárioDeVendasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inventárioToolStripMenuItem;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;

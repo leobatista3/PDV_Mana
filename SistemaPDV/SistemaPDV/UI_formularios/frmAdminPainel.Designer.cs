@@ -60,7 +60,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(333, 15);
+            this.label1.Location = new System.Drawing.Point(346, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(400, 30);
             this.label1.TabIndex = 0;
@@ -70,13 +70,13 @@
             // 
             this.menuStripTop.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStripTop.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.usuáriosToolStripMenuItem,
+            this.compraVendaToolStripMenuItem,
             this.categoriasToolStripMenuItem,
             this.produtosToolStripMenuItem,
-            this.inventárioToolStripMenuItem,
-            this.transaçãoToolStripMenuItem,
             this.cadastroToolStripMenuItem,
-            this.compraVendaToolStripMenuItem});
+            this.usuáriosToolStripMenuItem,
+            this.transaçãoToolStripMenuItem,
+            this.inventárioToolStripMenuItem});
             this.menuStripTop.Location = new System.Drawing.Point(0, 0);
             this.menuStripTop.Name = "menuStripTop";
             this.menuStripTop.Size = new System.Drawing.Size(910, 28);
@@ -86,50 +86,50 @@
             // usuáriosToolStripMenuItem
             // 
             this.usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
-            this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
-            this.usuáriosToolStripMenuItem.Text = "Usuários";
+            this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(89, 24);
+            this.usuáriosToolStripMenuItem.Text = "[Usuários]";
             this.usuáriosToolStripMenuItem.Click += new System.EventHandler(this.usuáriosToolStripMenuItem_Click);
             // 
             // categoriasToolStripMenuItem
             // 
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
-            this.categoriasToolStripMenuItem.Text = "Categorias";
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.categoriasToolStripMenuItem.Text = "[Categorias]";
             this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.categoriasToolStripMenuItem_Click);
             // 
             // produtosToolStripMenuItem
             // 
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
-            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
-            this.produtosToolStripMenuItem.Text = "Produtos";
+            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
+            this.produtosToolStripMenuItem.Text = "[Produtos]";
             this.produtosToolStripMenuItem.Click += new System.EventHandler(this.produtosToolStripMenuItem_Click);
             // 
             // inventárioToolStripMenuItem
             // 
             this.inventárioToolStripMenuItem.Name = "inventárioToolStripMenuItem";
-            this.inventárioToolStripMenuItem.Size = new System.Drawing.Size(89, 24);
-            this.inventárioToolStripMenuItem.Text = "Inventário";
+            this.inventárioToolStripMenuItem.Size = new System.Drawing.Size(99, 24);
+            this.inventárioToolStripMenuItem.Text = "[Inventário]";
             this.inventárioToolStripMenuItem.Click += new System.EventHandler(this.inventárioToolStripMenuItem_Click);
             // 
             // transaçãoToolStripMenuItem
             // 
             this.transaçãoToolStripMenuItem.Name = "transaçãoToolStripMenuItem";
-            this.transaçãoToolStripMenuItem.Size = new System.Drawing.Size(89, 24);
-            this.transaçãoToolStripMenuItem.Text = "Transação";
+            this.transaçãoToolStripMenuItem.Size = new System.Drawing.Size(105, 24);
+            this.transaçãoToolStripMenuItem.Text = "[Transações]";
             this.transaçãoToolStripMenuItem.Click += new System.EventHandler(this.transaçãoToolStripMenuItem_Click);
             // 
             // cadastroToolStripMenuItem
             // 
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(159, 24);
-            this.cadastroToolStripMenuItem.Text = "Cadastro de Clientes";
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
+            this.cadastroToolStripMenuItem.Text = "[Clientes]";
             this.cadastroToolStripMenuItem.Click += new System.EventHandler(this.cadastroToolStripMenuItem_Click);
             // 
             // compraVendaToolStripMenuItem
             // 
             this.compraVendaToolStripMenuItem.Name = "compraVendaToolStripMenuItem";
-            this.compraVendaToolStripMenuItem.Size = new System.Drawing.Size(133, 24);
-            this.compraVendaToolStripMenuItem.Text = "Compra e Venda";
+            this.compraVendaToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.compraVendaToolStripMenuItem.Text = "[PDV Compra e Venda]";
             this.compraVendaToolStripMenuItem.Click += new System.EventHandler(this.compraVendaToolStripMenuItem_Click);
             // 
             // label2
@@ -158,22 +158,22 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label4.Location = new System.Drawing.Point(318, 225);
+            this.label4.Location = new System.Drawing.Point(345, 193);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(256, 20);
+            this.label4.Size = new System.Drawing.Size(201, 20);
             this.label4.TabIndex = 4;
-            this.label4.Text = "SISTEMA DE VENDAS PARA";
+            this.label4.Text = "SISTEMA DE VENDAS";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.IndianRed;
-            this.label5.Location = new System.Drawing.Point(315, 254);
+            this.label5.Location = new System.Drawing.Point(372, 225);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(262, 39);
+            this.label5.Size = new System.Drawing.Size(146, 39);
             this.label5.TabIndex = 5;
-            this.label5.Text = "LANCHONETE";
+            this.label5.Text = "MANNÁ";
             // 
             // label6
             // 

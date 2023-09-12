@@ -129,7 +129,7 @@
             this.dvgProduto.Name = "dvgProduto";
             this.dvgProduto.RowHeadersWidth = 51;
             this.dvgProduto.RowTemplate.Height = 24;
-            this.dvgProduto.Size = new System.Drawing.Size(585, 530);
+            this.dvgProduto.Size = new System.Drawing.Size(1000, 530);
             this.dvgProduto.TabIndex = 62;
             this.dvgProduto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgProduto_CellContentClick);
             this.dvgProduto.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dvgProduto_RowHeaderMouseClick);
@@ -176,7 +176,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.IndianRed;
-            this.label1.Location = new System.Drawing.Point(333, 26);
+            this.label1.Location = new System.Drawing.Point(500, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(405, 36);
             this.label1.TabIndex = 70;
@@ -195,9 +195,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 231);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 22);
+            this.label3.Size = new System.Drawing.Size(62, 22);
             this.label3.TabIndex = 71;
-            this.label3.Text = "Quantidade:";
+            this.label3.Text = "Preço:";
             // 
             // label4
             // 
@@ -225,7 +225,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1112, 678);
+            this.ClientSize = new System.Drawing.Size(1516, 678);
             this.Controls.Add(this.cmbcategoriaProduto);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtavaliacaoProduto);

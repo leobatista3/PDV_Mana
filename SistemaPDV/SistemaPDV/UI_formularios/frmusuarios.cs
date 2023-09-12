@@ -162,5 +162,10 @@ namespace SistemaPDV.UI_formularios
                 dvgusuario.DataSource = dt;
             }
         }
+
+        private void dvgusuario_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

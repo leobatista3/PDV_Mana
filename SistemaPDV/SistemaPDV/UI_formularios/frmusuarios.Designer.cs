@@ -92,7 +92,7 @@ namespace SistemaPDV.UI_formularios
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(430, 19);
+            this.label1.Location = new System.Drawing.Point(451, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(286, 25);
             this.label1.TabIndex = 0;
@@ -249,6 +249,7 @@ namespace SistemaPDV.UI_formularios
             this.dvgusuario.RowTemplate.Height = 24;
             this.dvgusuario.Size = new System.Drawing.Size(533, 485);
             this.dvgusuario.TabIndex = 22;
+            this.dvgusuario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgusuario_CellContentClick);
             this.dvgusuario.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dvgusuario_RowHeaderMouseClick);
             // 
             // txtpesquisar
@@ -330,9 +331,9 @@ namespace SistemaPDV.UI_formularios
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(11, 450);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 22);
+            this.label11.Size = new System.Drawing.Size(75, 22);
             this.label11.TabIndex = 29;
-            this.label11.Text = "Sexo:";
+            this.label11.Text = "Gênero:";
             // 
             // button3
             // 

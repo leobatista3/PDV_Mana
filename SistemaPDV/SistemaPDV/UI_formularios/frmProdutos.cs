@@ -26,8 +26,11 @@ namespace SistemaPDV.UI_formularios
 
         userDAL_Classes udal = new userDAL_Classes();
 
+        
+
         private void frmProdutos_Load(object sender, EventArgs e)
         {
+            
             DataTable categoriasDT = cdal.Select();
             cmbcategoriaProduto.DataSource = categoriasDT;
             cmbcategoriaProduto.DisplayMember = "title";
@@ -35,6 +38,8 @@ namespace SistemaPDV.UI_formularios
 
             DataTable dt = pdal.Select();
             dvgProduto.DataSource = dt;
+
+
         }
 
         private void btncadastrarProduto_Click(object sender, EventArgs e)
@@ -156,7 +161,7 @@ namespace SistemaPDV.UI_formularios
 
         private void dvgProduto_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            
         }
 
         private void cmbcategoriaProduto_SelectedIndexChanged(object sender, EventArgs e)

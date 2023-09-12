@@ -380,7 +380,7 @@ namespace SistemaPDV.UI_formularios
                     printer.PageNumberInHeader = false;
                     printer.PorportionalColumns = true;
                     printer.HeaderCellAlignment = StringAlignment.Near;
-                    printer.Footer = "Valor total: " + txtvalortotal.Text + "\r\n" + "Valor pago: " + txttotalpago + "\r\n" + "Troco: " + txttroco.Text + "\r\n" + "OBRIGADO POR COMPRAR CONOSCO!!!" + "% \r\n" + "Deus é fiel!";
+                    printer.Footer = "Valor total: " + txtvalortotal.Text + " $" + "\r\n" + "Valor pago: " + txttotalpago.Text + " $" + "\r\n" + "Troco: " + txttroco.Text + " $" + "\r\n" + "OBRIGADO POR COMPRAR CONOSCO!!!" + " \r\n" + "Deus é fiel!";
                     printer.FooterSpacing = 15;
                     printer.PrintDataGridView(dvgCompraVenda);
 
